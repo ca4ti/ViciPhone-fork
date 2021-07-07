@@ -98,7 +98,10 @@ var ua_config = {
 	autostart: true,
 	registerOptions: {
 //		expires: 900
-	}
+	},
+	// You can add/remove/change STUN servers as you wish. Here's a list of public STUN servers:
+	// https://gist.githubusercontent.com/mondain/b0ec1cf5f60ae726202e/raw/0d0a751880b7ab2a0cd4a8e606316074cf9eeb8e/public-stun-list.txt
+	stunServers: ["stun:stun.l.google.com:19302", "stun.voipzoom.com:3478"]
 }
 
 // We define initial status
